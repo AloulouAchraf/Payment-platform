@@ -1,0 +1,28 @@
+{
+    "name": "PayerTaxe",
+    "fields": [],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "compte",
+            "otherEntityName": "compte",
+            "otherEntityField": "rib"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "taxe",
+            "otherEntityName": "taxe",
+            "otherEntityField": "description"
+        }
+    ],
+    "changelogDate": "20181217023657",
+    "entityTableName": "payer_taxe",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "mySuffix"
+}

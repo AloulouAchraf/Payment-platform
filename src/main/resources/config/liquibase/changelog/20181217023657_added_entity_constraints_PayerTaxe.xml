@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity PayerTaxe.
+    -->
+    <changeSet id="20181217023657-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="compte_id"
+                                 baseTableName="payer_taxe"
+                                 constraintName="fk_payer_taxe_compte_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="compte"/>
+
+        <addForeignKeyConstraint baseColumnNames="taxe_id"
+                                 baseTableName="payer_taxe"
+                                 constraintName="fk_payer_taxe_taxe_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="taxe"/>
+
+    </changeSet>
+</databaseChangeLog>

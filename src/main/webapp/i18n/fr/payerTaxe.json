@@ -1,0 +1,23 @@
+
+{
+    "blockchainApp": {
+        "payerTaxe" : {
+            "home": {
+                "title": "PayerTaxes",
+                "createLabel": "Créer un nouveau Payer Taxe",
+                "createOrEditLabel": "Créer ou éditer un Payer Taxe"
+            },
+            "created": "Un nouveau Payer Taxe a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Payer Taxe avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Payer Taxe avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Payer Taxe {{ id }} ?"
+            },
+            "detail": {
+                "title": "Payer Taxe"
+            },
+            "compte": "Compte",
+            "taxe": "Taxe"
+        }
+    }
+}

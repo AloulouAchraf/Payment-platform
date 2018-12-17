@@ -1,0 +1,23 @@
+
+{
+    "blockchainApp": {
+        "payerTaxe" : {
+            "home": {
+                "title": "Payer Taxes",
+                "createLabel": "Create a new Payer Taxe",
+                "createOrEditLabel": "Create or edit a Payer Taxe"
+            },
+            "created": "A new Payer Taxe is created with identifier {{ param }}",
+            "updated": "A Payer Taxe is updated with identifier {{ param }}",
+            "deleted": "A Payer Taxe is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Payer Taxe {{ id }}?"
+            },
+            "detail": {
+                "title": "Payer Taxe"
+            },
+            "compte": "Compte",
+            "taxe": "Taxe"
+        }
+    }
+}
